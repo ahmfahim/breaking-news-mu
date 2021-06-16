@@ -1,0 +1,30 @@
+.learn-btn{
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+}
+.cart-area{
+    overflow-y:scroll;
+    height:292px;
+}
+.cart-action{
+    background:black;
+}
+.cart-action Button{
+    color:white;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.cart{
+    width:30%;
+    margin:1%;
+    margin-left: 2%;
+    display:inline-block;
+    height: 345px;
+}
+@media(max-width: 768px){
+  .cart{
+        width:96%;
+        margin-top: 20px;
+    }  
+}
